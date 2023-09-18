@@ -1,0 +1,173 @@
+.body{
+  background-color: rgb(56, 61, 102);
+  color: white;
+  flex-wrap: nowrap;
+}
+.Header {
+ 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.Header > ul {
+  display: flex;
+  
+}
+
+.Header > ul> a {
+  list-style-type: none;
+  padding-left: 10px;
+  color: unset;
+  text-decoration: none;
+}
+.Header > ul> a:hover{
+  font-weight: bolder;
+}
+.login{
+  text-decoration: none;
+  color: unset;
+  margin-left: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+.login:hover{
+font-weight: bold;
+background-color: aquamarine;
+color: black;
+}
+.JoinUs{
+  text-decoration: none;
+  margin: 0 10px;
+  color: unset;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+.JoinUs:hover{
+  background-color: aquamarine;
+  color: black;
+  font-weight: bold;
+}
+
+.logo-name{
+text-decoration: none;
+color: unset;
+font-size: xx-large;
+margin-right: auto;
+padding-left: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo-name:hover{
+ color: yellow;
+ 
+}
+.paragraph{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 90px;
+}
+.button{
+  margin: 0 8px;
+  height: 30px;
+  border-radius: 5px;
+  color: aqua;
+  border: none;
+  background-color: rgb(56, 61, 102);
+}
+.button:hover{
+  background-color: aquamarine;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  color: black;
+  margin-top: 60px;
+ 
+}
+.apple{
+  background-color: lightblue;
+  width: 230px;
+  height: 180px;
+  text-align: left;
+  padding-left: 15px;
+  font-size: small;
+  border-radius: 5px;
+}
+
+.form {
+  background-color: rgb(22, 210, 216);
+  
+}
+.box{
+  margin: 100px 500px;
+  background-color: rgb(16, 112, 99);
+  color: white;
+  line-height: 2em;
+  text-align: center;
+  height: 350px;
+  border-radius: 5px;
+  flex-wrap: nowrap;
+  display: inline-block;
+  width: 330px;
+ 
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.loginheader{
+  padding-top: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input {
+padding-left: 10px;
+border: none ;
+border-radius: 5px;
+background-color: lightgray;
+height: 20px;
+outline: none;
+}
+.loginbutton{
+  background-color: aqua;
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 20px;
+}
+.loginbutton:hover{
+background-color: rgb(3, 238, 101);
+cursor: pointer;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+@media (max-width: 700px) {
+  .Header > ul {
+    display: none;
+  }
+  .body{
+    flex-wrap: wrap;
+  }
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box{
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}
+
+
+.smile{
+  margin-top: 5px;
+}
